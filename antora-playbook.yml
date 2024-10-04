@@ -3,9 +3,9 @@ site:
   start_page: home::index.adoc
 content:
   sources:
-    - url: ../gitdocs-sample-component-home
+    - url: https://github.com/dominikcebula/gitdocs-sample-component-home.git
       branches: HEAD
-    - url: ../gitdocs-sample-component-example
+    - url: https://github.com/dominikcebula/gitdocs-sample-component-example.git
       branches: HEAD
 ui:
   bundle:
