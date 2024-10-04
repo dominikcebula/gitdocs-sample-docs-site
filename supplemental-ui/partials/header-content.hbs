@@ -1,0 +1,80 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{{or site.url siteRootPath}}}">{{site.title}}</a>
+      {{#if env.SITE_SEARCH_PROVIDER}}
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search the docs"{{#if page.home}} autofocus{{/if}}>
+        </div>
+      </div>
+      {{/if}}
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+
+        <a class="navbar-item" href="#">Home</a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Customer Interactions</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Shopping Cart &amp; Checkout System</a>
+            <a class="navbar-item" href="#">Customer Review and Rating System</a>
+            <a class="navbar-item" href="#">User Dashboard and Profile Management</a>
+            <a class="navbar-item" href="#">Mobile Shopping Application (iOS &amp; Android)</a>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Inventory &amp; Product Management</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Inventory Management System</a>
+            <a class="navbar-item" href="#">Product Catalog</a>
+            <a class="navbar-item" href="#">Warehouse Automation System</a>
+            <a class="navbar-item" href="#">Supplier and Vendor Management Portal</a>
+            <a class="navbar-item" href="#">Product Search and Filtering System</a>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Sales &amp; Marketing</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Email Marketing Automation</a>
+            <a class="navbar-item" href="#">Discount and Promotion Engine</a>
+            <a class="navbar-item" href="#">Affiliate and Referral Program</a>
+            <a class="navbar-item" href="#">SEO Optimization Dashboard</a>
+            <a class="navbar-item" href="#">Push Notification and Retargeting System</a>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Payments &amp; Transactions</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Payment Gateway Integration</a>
+            <a class="navbar-item" href="#">Digital Wallet</a>
+            <a class="navbar-item" href="#">Subscription Billing System</a>
+            <a class="navbar-item" href="#">Fraud Detection and Prevention System</a>
+            <a class="navbar-item" href="#">Tax Calculation and Invoicing System</a>
+          </div>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Analytics &amp; Reporting</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Sales and Revenue Dashboard</a>
+            <a class="navbar-item" href="#">Customer Behavior Analytics</a>
+            <a class="navbar-item" href="#">Inventory Analytics System</a>
+            <a class="navbar-item" href="#">Marketing Campaign Analytics</a>
+            <a class="navbar-item" href="#">Customer Feedback Analysis Tool</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+</header>
